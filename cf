@@ -1,0 +1,14 @@
+NAME:
+   scale - Change or view the instance count, disk space limit, and memory limit for an app
+
+USAGE:
+   cf scale APP_NAME [-i INSTANCES] [-k DISK] [-m MEMORY] [-f]
+
+OPTIONS:
+   -f      Force restart of app without prompt
+   -i      Number of instances
+   -k      Disk limit (e.g. 256M, 1024M, 1G)
+   -m      Memory limit (e.g. 256M, 1024M, 1G)
+
+SEE ALSO:
+   push
